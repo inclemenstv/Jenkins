@@ -2,7 +2,7 @@
 
 ### Purpose
 
-1. Creating a test environment (Vagrantfile have 2 VM with Jenkins and VM for deploy)
+1. Creating a test environment with Jenkins
 2. Jenkins is automatically installed, as well as configuration and pipeline are created
 
 
@@ -16,6 +16,6 @@
 ### How to use
 
 1. Use script to generate config files  ./create_config_files.sh
-2. Use command vagrant up to create both VM
+2. Use command vagrant up to create VM
 3. Login to Jenkins JENKINS_HOST:8080 use your credentials
    
